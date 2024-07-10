@@ -11,6 +11,9 @@ body{
     margin: 0%;
     padding: 0%;
 }
+.firstSection{
+  overflow: hidden;
+}
 .firstSectionImage{
     background: url('https://media.nomadicmatt.com/siteimages/2024/nomadic-matt-wecome.jpg');
     background-repeat: no-repeat;
@@ -36,7 +39,6 @@ body{
 .textBoxContent{
     text-align: center;
     width: 500px;
-    /* margin-left: 500px; */
 }
 
 .inputFirstBox{
@@ -47,10 +49,9 @@ body{
 
 .inputFirst {
     justify-content: center;
-    height: 60px; /* Increase height */
-    width: 100px; /* Reduce width */
- /* Center placeholder text */
-        /* box-sizing: border-box; */
+    height: 60px; 
+    width: 100px; 
+
   }
   
   .inputFirst::placeholder {
@@ -109,5 +110,90 @@ body{
     border-radius: 4px;
     
   }
+
+  /* end of tip sec tion */
+
+  /* photo section */
+  .photoSection h1{
+    text-align: center;
+  }
+  .photoSection img{
+    width: 365px;
+    filter: brightness(0.7);
+    transition: all 0.4s;
+  }
+
+  .photoContainer{
+    position: absolute;
+  }
+
+
+  .photoSection img:hover{
+    filter: brightness(0.4);
+  }
+
+  .photoSection h2{
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    margin: 64px;
+  }
+
+
+  
+  /* end of photo section */
+
+
+
+
+  /* contact Section */
+  .ContactSection{
+    background-color: rgb(231, 231, 231);
+    justify-content: center;
+    text-align: center;
+  }
+  .ContactSection img{
+    width: 500px;
+  }
+
+  .ContactSectionMain{
+    padding: 100px;
+    justify-content: center;
+  }
+  /* End of Countact Section */
+
+  /* Foter Section */
+
+  .footerSection{
+    background-color: #0d86a4;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+.footerHeder{
+  border-width: 0px 0px 2px 0px; 
+  border-style: dotted;
+  border-color: white;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.footerContentIcon{
+  padding: 10px;
+}
+.footerContentIcon i{
+  margin-right: 20px;
+  transition: all 0.3s;
+}
+
+.footerContentIcon i:hover{
+  transform: scale(108%);
+}
+  .footerContent ul{
+    list-style-type: none;
+    text-align: left;
+    cursor: pointer;
+  }
+  /* End of Footer Section */
 
 
