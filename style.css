@@ -3,7 +3,7 @@
     padding: 0%;
 }
 
-nav{
+header{
     background: #000;
     color: aliceblue;
 }
@@ -35,6 +35,12 @@ body{
     height:470px ;
     padding: 100px;
     width: 100%;
+}
+.textBox h1{
+  font-family: "Fjalla One", sans-serif;
+}
+.textBox h2{
+  font-family: "Fjalla One", sans-serif;
 }
 .textBoxContent{
     text-align: center;
@@ -95,6 +101,7 @@ body{
     font-weight: 900;
     font-size: large;
     text-align: center;
+    font-family: "Fjalla One", sans-serif;
   }
 
   .tips .row input{
@@ -125,6 +132,7 @@ body{
 
   .photoContainer{
     position: absolute;
+    cursor: pointer;
   }
 
 
@@ -137,13 +145,106 @@ body{
     color: #ffffff;
     text-align: center;
     margin: 64px;
+    cursor: pointer;
+    font-family: "Fjalla One", sans-serif;
+    font-size:25px;
   }
 
 
   
   /* end of photo section */
 
+/* Self intro Section */
+.selfIntroSection{
+  background-color: rgb(231, 231, 231);
+  padding: 90px;
+}
 
+.selfIntroSectionFirst img{
+padding-bottom: 20px;
+}
+.selfIntroSectionFirst p{
+  font-size: 18px;
+}
+.selfIntroSection h2{
+  font-family: "Fjalla One", impact;
+  color: #000;
+}
+.selfIntroSection .selfIntroSectionSecond .logoGroup img{
+  width: 380px;
+}
+
+.selfIntroSectionFirst span{
+  transition: all 0.3s;
+  font-weight: 700;
+  font-size: 20px;
+  color: #296b94;
+  cursor: pointer;
+}
+
+.selfIntroSectionFirst span:hover{
+  color: #000000;
+}
+
+.selfIntroSectionSecond ul li{
+  cursor: pointer;
+  color: #3a8ec2;
+}
+
+
+.selfIntroSectionSecond ul li:hover{
+  color: #000000;
+}
+.selfIntroSectionSecond h5{
+  font-family: "Fjalla One", impact;
+  text-align: center;
+  color: #000;
+  padding: 20px;
+}
+
+/* End of Self intro Section */
+
+
+/* Resorece Section */
+.resorceSection{
+  width: 100%;
+  align-items: center;
+  padding-bottom: 50px;
+}
+ .resorceSection img{
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .resorceSection .firstContent{
+  display: flex;
+  padding-top: 30px;
+  padding-left: 150px;
+ }
+ .resorceSection .firstContent img{
+  width: 300px;
+ }
+
+ .resorceSection .firstContent .textbox{
+  padding-top: 50px;
+ }
+ .resorceSection .secondContent{
+  display: flex;
+  padding-top: 30px;
+  padding-left: 150px;
+ }
+ .resorceSection .secondContent img{
+  width: 300px;
+  padding-right: 150px;
+ }
+
+ .resorceSection .thirdContent img{
+  width: 150px;
+  height: 250px;
+ }
+/* End of Resorce Section */
 
 
   /* contact Section */
