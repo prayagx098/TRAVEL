@@ -113,6 +113,21 @@ body{
     margin: 0%;
     padding: 0%;
 }
+
+/* Go to Top Arrow  Section*/
+.button{
+  position: fixed;
+  bottom: 5vw;
+  right: 2vw;
+}
+.button button{
+  width: 2vw;
+  height: 2vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+}
+/* End Of Go to Top ARrow */
 .firstSection{
   overflow: hidden;
 }
@@ -367,36 +382,44 @@ padding-bottom: 20px;
 
   /* Foter Section */
 
-  .footerSection{
-    background-color: #0d86a4;
+  #footer{
+    background-color: #3a92b3;
     color: white;
-    text-align: center;
-    padding-bottom: 50px;
-    width: 100%;
-  }
-.footerHeder{
-  border-width: 0px 0px 2px 0px; 
-  border-style: dotted;
-  border-color: white;
-  text-align: left;
-  margin-bottom: 30px;
 }
-.footerContentIcon{
-  padding: 10px;
+#footer .container{
+    display: flex;
 }
-.footerContentIcon i{
-  margin-right: 20px;
-  transition: all 0.3s;
+#footer .div1{
+    width: 20%;
 }
-
-.footerContentIcon i:hover{
-  transform: scale(108%);
+#footer h3{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    width: 87%;
+    border-bottom: white 0.14vw dotted;
 }
-  .footerContent ul{
-    list-style-type: none;
-    text-align: left;
-    cursor: pointer;
-  }
+#footer .div1 p{
+    font-size: 0.9vw;
+    color: #c7edf5;
+}
+#footer i{
+    color: white;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 2vw;
+}
+#footer input{
+    width: 87%;
+    height: 2.5vw;
+    border: none;
+    padding-left: 1vw;
+    font-size: 0.8vw;
+}
+#footer .footer2{
+    padding: 3vw;
+    font-size: 0.8vw;
+}
   /* End of Footer Section */
 
 
