@@ -3,10 +3,112 @@
     padding: 0%;
 }
 
-header{
-    background: #000;
-    color: aliceblue;
+/* Header Section */
+/* header */
+#header{
+  background-color: black;
 }
+
+/* header1 */
+#header .header1{
+  height: 3.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1.5vw;
+  padding: 0px 6.3vw;
+}
+#header .header1 i{
+  scale:1.2;
+  width: 0.5vw;
+  height: 0.5vw;
+}
+#header input{
+  border: 0px solid transparent;
+  width: 11vw;
+  height: 2.3vw;
+  padding: 0vw 0.5vw;
+  font-size: 1vw;
+  border-top-left-radius: 0.2vw;
+  border-bottom-left-radius: 0.2vw;
+}
+#header .button1{
+  border: 0px solid transparent;
+  height: 2.3vw;
+  width: 2vw;
+  position: absolute;
+  background-color: white;
+  border-top-right-radius: 0.2vw;
+  border-bottom-right-radius: 0.2vw;
+}
+/* header2 */
+#header .header2{
+  height: 3.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 4vw;
+}
+#header .nav{
+  display: flex;
+  gap: 1.1vw;
+  height: 2.3vw;
+  width: 37vw;
+}
+#header .header2 button{
+  background-color: black;
+  color: white;
+  border: 0px;
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.2vw;
+  transition: all 0.2s ease-out;
+  height: 2.3vw;
+  padding: 0;
+}
+#header .header2 button:hover{
+  color: #2ca0c4;
+}
+#header .header2 i{
+  scale: 0.5;
+}
+#header .header2 img{
+  width: 12vw;
+  padding-bottom: 1vw;
+}
+#header .content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+  z-index: 1;
+}
+#header .c1{
+  width: 22vw;
+}
+#header .c1 h6{
+  font-size: 1vw;
+  padding: 0.5vw;
+}
+#header p:hover{
+  background-color: rgb(187, 187, 187);
+}
+#header p{
+  margin: 0;
+  padding: 0.5vw 0.5vw;
+  transition: all 0.2s ease-in;
+  font-size: 0.8vw;
+}
+#header .dropdown:hover .content{
+  display: block;
+}
+#header .c2{
+  width: 14vw;
+}
+#header .c2 p{
+  border-bottom: 1px rgb(221, 221, 221) solid;
+}
+/* End of Header Scetion */
 body{
     margin: 0%;
     padding: 0%;
