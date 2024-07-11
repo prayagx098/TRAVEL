@@ -242,7 +242,7 @@ body{
     text-align: center;
   }
   .photoSection img{
-    width: 365px;
+    width: 370px;
     filter: brightness(0.7);
     transition: all 0.4s;
   }
@@ -374,6 +374,14 @@ padding-bottom: 20px;
     width: 500px;
   }
 
+  .ContactSection button{
+    height: 2.5vw;
+    font-size: 0.8vw;
+    font-family: "Fjalla One", sans-serif;
+    border: none;
+    color: white;
+    background-color: #acc960;
+  }
   .ContactSectionMain{
     padding: 100px;
     justify-content: center;
